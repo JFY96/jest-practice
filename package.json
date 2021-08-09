@@ -1,0 +1,28 @@
+{
+  "name": "jest-practice",
+  "version": "1.0.0",
+  "description": "TDD (Test Driven Development) practice exercises using Javascript and Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JFY96/jest-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JFY96/jest-practice/issues"
+  },
+  "homepage": "https://github.com/JFY96/jest-practice#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "jest": "^27.0.6"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  }
+}
